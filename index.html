@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <audio id='alarm1' src="https://raw.githubusercontent.com/android/platform_frameworks_base/master/data/sounds/alarms/ogg/Timing.ogg"></audio>
+<audio id='alarm2' src="https://raw.githubusercontent.com/android/platform_frameworks_base/master/data/sounds/alarms/ogg/Krypton.ogg"></audio>
+
+<div class="container">
+  <div class="container fluid">
+    
+    <br>
+    <div class="frame jumbotron">
+      <h2 class="text-center toptitle">Pomodoro Clock</h2>
+      
+    <div class="clock">
+      <h3 class="text-center" id="description"></h3>
+      <h4 class="time"><span class="text-center" id="mins">25</span><span id="mid">&nbsp;:&nbsp;</span><span class="text-center" id="secs">00</span></h4>
+      
+    </div>
+      
+      <hr>
+      
+      <div class="row">
+      <div class="col-xs-6 one">
+       <h2 class="text-center">Session Time<h2>
+         <a type="button" id="sminus" class="b">-</a>
+         <span id="stime">25</span>
+         <a type="button" id="splus"class="">+</a>
+           </div>
+      
+       <div class="col-xs-6">
+       <h2 class="text-center">Break Time<h2>
+         <a type="button" id="bminus" class=" ">-</a>
+         <span id="btime">5</span>
+         <a type="button" id="bplus"class="">+</a>
+           </div>
+         </div>
+         <hr>
+         <div class="bot">
+         <button type="button" class="btn btn-warning btn-lg" id="start" value="Start" >Start</button>
+         <button type="button" class="btn btn-danger btn-lg" id="reset">Reset</button>
+      </div>
+         </div>
+         
+         <div class="bottom">
+   <br>
+  <hr class="last">
+  <div class=" details text-center">
+    <h5>Designed & Coded by <b><a href="https://codepen.io/rishabhgupta/" target="_blank"><h4 class="bott">Rishabh Gupta</h4></a></b></h5></div>
+</div>
+    </div> 
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
